@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/img_keyboard_preview"
+          android:textColor="@color/default_keyPreviewTextColor"
+          android:paddingLeft="@dimen/dp_16"
+          android:paddingRight="@dimen/dp_16"
+          android:gravity="center"
+          android:textSize="@dimen/default_keyPreviewTextSize"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_guan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_guan"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:visibility="gone"/>
+
+            <com.github.phoenix.widget.EditView
+                android:id="@+id/edit_view"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/tv_guan"
+                android:gravity="center"
+                android:hint="身份证号: "
+                android:textSize="@dimen/sp_24"
+                android:textColor="@android:color/black"
+                android:textColorHint="#BABABA"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/default_keyboard_bg"
+        android:visibility="gone">
+
+        <include layout="@layout/content_keyboard"></include>
+
+    </LinearLayout>
+
+</RelativeLayout>

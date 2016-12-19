@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          android:horizontalGap="0px"
+          android:keyHeight="7.5%p"
+          android:keyWidth="30%p"
+          android:verticalGap="0px">
+
+    <Row android:verticalGap="2%p">
+        <Key
+            android:codes="49"
+            android:horizontalGap="2%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="1"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="50"
+            android:horizontalGap="3%p"
+            android:keyLabel="2"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="51"
+            android:horizontalGap="3%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="3"
+            android:keyWidth="30%p"/>
+    </Row>
+
+    <Row android:verticalGap="2%p">
+        <Key
+            android:codes="52"
+            android:horizontalGap="2%p"
+            android:keyLabel="4"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="53"
+            android:horizontalGap="3%p"
+            android:keyLabel="5"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="54"
+            android:horizontalGap="3%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="6"
+            android:keyWidth="30%p"/>
+    </Row>
+
+    <Row android:verticalGap="2%p">
+        <Key
+            android:codes="55"
+            android:horizontalGap="2%p"
+            android:keyLabel="7"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="56"
+            android:horizontalGap="3%p"
+            android:keyLabel="8"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="57"
+            android:horizontalGap="3%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="9"
+            android:keyWidth="30%p"/>
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="-2"
+            android:horizontalGap="2%p"
+            android:isModifier="true"
+            android:isRepeatable="false"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyLabel="abc"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="48"
+            android:horizontalGap="3%p"
+            android:keyLabel="0"
+            android:keyWidth="30%p"/>
+        <Key
+            android:codes="-5"
+            android:horizontalGap="3%p"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/img_edit_clear"
+            android:keyWidth="30%p"/>
+    </Row>
+
+</Keyboard> 

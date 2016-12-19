@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.phoenix.widget.SKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_keyboard_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyBackground="@drawable/selector_keyboard_key"
+    android:keyPreviewHeight="@dimen/default_keyPreviewHeight"
+    android:keyPreviewLayout="@layout/view_keyboard_preview"
+    android:keyTextColor="@color/default_keyTextColor"
+    android:keyTextSize="@dimen/default_keyTextSize"
+    android:labelTextSize="@dimen/default_labelTextSize"
+    android:paddingBottom="@dimen/dp_8"
+    android:paddingTop="@dimen/dp_8"
+    android:shadowColor="@color/default_keyShadowColor"
+    android:shadowRadius="0.0"
+    android:visibility="gone"/>
